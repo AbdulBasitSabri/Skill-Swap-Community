@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .skill-listing{
+    background-color: #fff;
+}
+.heading-skills{
+    text-align: center;
+    font-size: 2rem;
+    color: #0A2540;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.skill-card{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    height: max-content;
+    width: max-content;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 1rem;
+    box-shadow: -3px -3px 15px rgba(255, 255, 255, 0.2),
+                3px 3px  10px rgba(0, 0, 0, 0.75);
+    transition: 0.4s ease;
+}
+.skill-card:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.show-list a{
+  text-decoration: none;
+}
+.skill-image img{
+    width: 80px;
+    height: 80px;
+}
+.skill-para{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 5px 5px 10px;
+}
+.skill-para h3{
+    font-size: 1.5rem;
+}
+.skill-para p{
+    font-size: 0.9rem;
+     text-align: start;
+}
+
+    </style>
+</head>
+<body>
+    <section class="skill-listing">
+        <div class="heading-skills">
+          <h1>Skill Listing</h1>
+        </div>
+
+        <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/programmer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Programming Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+         <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/graphic-designer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Graphic Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/guitar.png">
+          </div>
+          <div class="skill-para">
+            <h3>Guitare Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/cooking.png">
+          </div>
+          <div class="skill-para">
+            <h3>Cooking Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/electrician.png">
+          </div>
+          <div class="skill-para">
+            <h3>Electric Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/clapperboard.png">
+          </div>
+          <div class="skill-para">
+            <h3>Video Editor</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/programmer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Programming Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+         <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/graphic-designer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Graphic Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/guitar.png">
+          </div>
+          <div class="skill-para">
+            <h3>Guitare Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/cooking.png">
+          </div>
+          <div class="skill-para">
+            <h3>Cooking Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/electrician.png">
+          </div>
+          <div class="skill-para">
+            <h3>Electric Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/electrician.png">
+          </div>
+          <div class="skill-para">
+            <h3>Electric Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="skill-listing" id="show-more">
+        <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/programmer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Programming Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+         <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/graphic-designer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Graphic Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/guitar.png">
+          </div>
+          <div class="skill-para">
+            <h3>Guitare Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/cooking.png">
+          </div>
+          <div class="skill-para">
+            <h3>Cooking Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/electrician.png">
+          </div>
+          <div class="skill-para">
+            <h3>Electric Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/clapperboard.png">
+          </div>
+          <div class="skill-para">
+            <h3>Video Editor</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/programmer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Programming Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+         <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/graphic-designer.png">
+          </div>
+          <div class="skill-para">
+            <h3>Graphic Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/guitar.png">
+          </div>
+          <div class="skill-para">
+            <h3>Guitare Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/cooking.png">
+          </div>
+          <div class="skill-para">
+            <h3>Cooking Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-image">
+          <img src="/ALPHABETS/electrician.png">
+          </div>
+          <div class="skill-para">
+            <h3>Electric Skills</h3>
+            <p>Offering the tutorial for beginners </p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="show-list">
+            <a href="#" class="show-skills"> Show More Skills<i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        </div>
+        </div>
+        
+      </section>
+
+      <script>
+       
+      </script>
+</body>
+</html>
